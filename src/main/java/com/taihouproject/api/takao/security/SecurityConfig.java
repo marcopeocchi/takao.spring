@@ -34,10 +34,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
             .and()
             .addFilter(new com.taihouproject.api.takao.security.AuthorizationFilter(authenticationManager()))
             .authorizeRequests()
-            .antMatchers("/api/v1/h/all").authenticated()
             .antMatchers("/api/v1/h/title/**").permitAll()
             .antMatchers("/api/v1/h/series/**").permitAll()
             .antMatchers("/api/v1/h/genres/**").permitAll()
-            .antMatchers("/api/v1/h/characters/**").permitAll();
+            .antMatchers("/api/v1/h/characters/**").permitAll()
+            .anyRequest().authenticated();
     }
 }
