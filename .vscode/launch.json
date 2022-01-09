@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TakaoApplication<takao>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.taihouproject.api.takao.TakaoApplication",
+            "projectName": "takao",
+            "args": ""
+        }
+    ]
+}
