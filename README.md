@@ -4,4 +4,4 @@
 
 #### Takao uses Spring Boot web framework
 
-<img src="https://azurlane.koumakan.jp/w/images/thumb/2/28/Takao.png/576px-Takao.png"/>
+<img src="https://i.ibb.co/cL41ZwK/576px-Takao.png" alt="576px-Takao" border="0">
